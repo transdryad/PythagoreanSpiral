@@ -16,13 +16,13 @@ def getNewLine(oldLine):
     m2 = numpy.reciprocal(m)
 
     m3 = m2 * -1
-    #print(m)
-    #print(m2)
+    print(m)
+    print(m2)
     print(m3)
     slopeAngle = math.degrees(math.atan(m3))
     print(slopeAngle)
     angle = slopeAngle
-    #print(angle)
+    print(angle)
 
     offset_x = math.cos(angle) * 3
     print(offset_x)
