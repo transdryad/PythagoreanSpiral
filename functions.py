@@ -19,7 +19,7 @@ def getNewLine(oldLine):
     print(m)
     print(m2)
     print(m3)
-    slopeAngle = math.degrees(math.atan(m3))
+    slopeAngle = math.atan(m3)
     print(slopeAngle)
     angle = slopeAngle
     print(angle)
