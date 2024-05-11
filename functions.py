@@ -14,7 +14,6 @@ def getNewLine(oldLine):
     m = (y2 - y1) / (x2 - x1)
 
     m2 = numpy.reciprocal(m)
-
     m3 = m2 * -1
     print(m)
     print(m2)
