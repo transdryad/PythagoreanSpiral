@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa58dd2-6e6b-45f8-8587-259f8fef0fb4" name="Changes" comment="Finally, the angle is right">
+    <list default="true" id="2fa58dd2-6e6b-45f8-8587-259f8fef0fb4" name="Changes" comment="Second Triangle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -30,6 +31,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -61,7 +63,8 @@
       <workItem from="1715379215184" duration="6126000" />
       <workItem from="1715385360758" duration="175000" />
       <workItem from="1715385556087" duration="268000" />
-      <workItem from="1715386575007" duration="1256000" />
+      <workItem from="1715386575007" duration="3149000" />
+      <workItem from="1715471232341" duration="485000" />
     </task>
     <task id="LOCAL-00001" summary="Beginning">
       <option name="closed" value="true" />
@@ -95,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715387085699</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Second Triangle">
+      <option name="closed" value="true" />
+      <created>1715387985471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715387985471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,9 +118,11 @@
     <MESSAGE value="Remove Unneeded imports" />
     <MESSAGE value="Unncomment print statements" />
     <MESSAGE value="Finally, the angle is right" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally, the angle is right" />
+    <MESSAGE value="Second Triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Triangle" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythagoreanSpiral$main.coverage" NAME="main Coverage Results" MODIFIED="1715387496868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythagoreanSpiral$functions.coverage" NAME="functions Coverage Results" MODIFIED="1715388714284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythagoreanSpiral$main.coverage" NAME="main Coverage Results" MODIFIED="1715388987125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
