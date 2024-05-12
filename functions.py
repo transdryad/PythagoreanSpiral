@@ -2,10 +2,10 @@ import numpy
 import math
 import matplotlib.pyplot as plt
 
-origin = [0, 0]
+origin = [30, 30]
 
 
-def getNewLine(oldLine):
+def getNewLine(oldLine, x):
     # Get coordinates of start and end of old line.
     coords = oldLine[0].get_data()
     ncoords = str(coords)
@@ -42,6 +42,10 @@ def getNewLine(oldLine):
     x = [x2, x1]
     y2 = y1 - offset_y
     y = [y2, y1]
+    x2 = str(x2)
+    y2 = str(y2)
+    print("New x:" + x2)
+    print("New y:" + y2)
     # Send back the x and y to main drawing file.
     return [x, y]
 
