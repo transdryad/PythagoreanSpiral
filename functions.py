@@ -8,7 +8,8 @@ origin = [0, 0]
 def getNewLine(oldLine):
     # Get coordinates of start and end of old line.
     coords = oldLine[0].get_data()
-    # print(coords)
+    ncoords = str(coords)
+    print("Old Coordinates: " + ncoords)
     # Store Coordinates in variables.
     x1 = coords[0][0]
     x2 = coords[0][1]
@@ -19,17 +20,23 @@ def getNewLine(oldLine):
     # Get perpendicular slope.
     m2 = numpy.reciprocal(m)
     m3 = m2 * -1
-    # print(m)
-    # print(m2)
-    # print(m3)
+    m = str(m)
+    m2 = str(m2)
+    m4 = str(m3)
+    print("Slope of old line: " + m)
+    print("Reciprocal of that: " + m2)
+    print("Slope perpendicular to old line: " + m4)
     # Change Slope into Degrees from x-axis.
     angle = math.atan(m3)
-    # print(angle)
+    nangle = str(angle)
+    print("Angle perpendicular to old line: " + nangle)
     # Take the imaginary triangle's side lengths from angle and length of hypotenuse: 3.
     offset_x = math.cos(angle) * 3
-    # print(offset_x)
+    noffset_x = str(offset_x)
+    print("Offset x: " + noffset_x)
     offset_y = math.sin(angle) * 3
-    # print(offset_y)
+    noffset_y = str(offset_y)
+    print("Offset y: " + noffset_y)
     # Use distance from endpoint of last line to calculate final x/y for new line.
     x2 = x1 - offset_x
     x = [x2, x1]
