@@ -6,9 +6,9 @@ origin = [12, 10]
 
 def main():
     # Draw
-    a1 = plt.plot([15, 12], [10, 10])
+    plt.plot([15, 12], [10, 10])
 
-    b1 = plt.plot([15, 15], [10, 13])
+    plt.plot([15, 15], [10, 13])
 
     c1 = plt.plot([15, 12], [13, 10])
 
