@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa58dd2-6e6b-45f8-8587-259f8fef0fb4" name="Changes" comment="Comments, a bit of refactor, and several new triangles.">
+    <list default="true" id="2fa58dd2-6e6b-45f8-8587-259f8fef0fb4" name="Changes" comment="Refactor and clean up, a LOT">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <workItem from="1715385360758" duration="175000" />
       <workItem from="1715385556087" duration="268000" />
       <workItem from="1715386575007" duration="3149000" />
-      <workItem from="1715471232341" duration="790000" />
+      <workItem from="1715471232341" duration="1261000" />
     </task>
     <task id="LOCAL-00001" summary="Beginning">
       <option name="closed" value="true" />
@@ -126,7 +128,8 @@
     <MESSAGE value="Finally, the angle is right" />
     <MESSAGE value="Second Triangle" />
     <MESSAGE value="Comments, a bit of refactor, and several new triangles." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments, a bit of refactor, and several new triangles." />
+    <MESSAGE value="Refactor and clean up, a LOT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor and clean up, a LOT" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythagoreanSpiral$functions.coverage" NAME="functions Coverage Results" MODIFIED="1715388714284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -2,23 +2,31 @@ import matplotlib.pyplot as plt
 import functions
 
 origin = [12, 10]
-# Draw
-a1 = plt.plot([15, 12], [10, 10])
 
-b1 = plt.plot([15, 15], [10, 13])
 
-c1 = plt.plot([15, 12], [13, 10])
+def main():
+    # Draw
+    a1 = plt.plot([15, 12], [10, 10])
 
-# Draw Lines
-newCoords = functions.getNewLine(c1)
-old_triangle = functions.drawNewTriangle(newCoords)
+    b1 = plt.plot([15, 15], [10, 13])
 
-for x in range(0, 4):
-    newCoords = functions.getNewLine(old_triangle)
+    c1 = plt.plot([15, 12], [13, 10])
+
+    # Draw Lines
+    newCoords = functions.getNewLine(c1)
     old_triangle = functions.drawNewTriangle(newCoords)
 
-# Make square plot
-plt.axis('square')
+    # Draw new lines in format triangles - 2
+    for x in range(0, 5):
+        newCoords = functions.getNewLine(old_triangle)
+        old_triangle = functions.drawNewTriangle(newCoords)
 
-# Draw to Screen
-plt.show()
+    # Make square plot
+    plt.axis('square')
+
+    # Draw to Screen
+    plt.show()
+
+
+if __name__ == '__main__':
+    main()
