@@ -1,8 +1,11 @@
 import numpy
 import math
+import matplotlib.pyplot as plt
+
+origin = [12, 10]
 
 
-def getNewLine(oldLine: object) -> object:
+def getNewLine(oldLine):
     # Get coordinates of start and end of old line.
     coords = oldLine[0].get_data()
     print(coords)
@@ -34,3 +37,11 @@ def getNewLine(oldLine: object) -> object:
     y = [y2, y1]
     # Send back the x and y to main drawing file.
     return [x, y]
+
+
+# Draw new triangle from recently created coords.
+def drawNewTriangle(coords):
+    b2 = plt.plot(coords[0], coords[1])
+    n_coords = b2[0].get_data()
+    c2 = plt.plot([n_coords[0][0], origin[0]], [n_coords[1][0], origin[1]])
+    return c2
