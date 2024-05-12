@@ -2,7 +2,7 @@ import numpy
 import math
 import matplotlib.pyplot as plt
 
-origin = [12, 10]
+origin = [0, 0]
 
 
 def getNewLine(oldLine):

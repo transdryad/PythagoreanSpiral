@@ -1,16 +1,16 @@
 import matplotlib.pyplot as plt
 import functions
 
-origin = [12, 10]
+origin = [0, 0]
 
 
 def main():
     # Draw
-    plt.plot([15, 12], [10, 10])
+    plt.plot([3, 0], [0, 0])
 
-    plt.plot([15, 15], [10, 13])
+    plt.plot([3, 3], [0, 3])
 
-    c1 = plt.plot([15, 12], [13, 10])
+    c1 = plt.plot([3, 0], [3, 0])
 
     # Draw Lines
     newCoords = functions.getNewLine(c1)

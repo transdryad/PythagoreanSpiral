@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa58dd2-6e6b-45f8-8587-259f8fef0fb4" name="Changes" comment="More Refactor, but line goes wrong way?">
+    <list default="true" id="2fa58dd2-6e6b-45f8-8587-259f8fef0fb4" name="Changes" comment="Hmm. Idk what to do here guys">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <workItem from="1715385360758" duration="175000" />
       <workItem from="1715385556087" duration="268000" />
       <workItem from="1715386575007" duration="3149000" />
-      <workItem from="1715471232341" duration="2081000" />
+      <workItem from="1715471232341" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="Beginning">
       <option name="closed" value="true" />
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715472800685</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Hmm. Idk what to do here guys">
+      <option name="closed" value="true" />
+      <created>1715473619203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715473619203</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,10 +152,11 @@
     <MESSAGE value="Comments, a bit of refactor, and several new triangles." />
     <MESSAGE value="Refactor and clean up, a LOT" />
     <MESSAGE value="More Refactor, but line goes wrong way?" />
-    <option name="LAST_COMMIT_MESSAGE" value="More Refactor, but line goes wrong way?" />
+    <MESSAGE value="Hmm. Idk what to do here guys" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hmm. Idk what to do here guys" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythagoreanSpiral$functions.coverage" NAME="functions Coverage Results" MODIFIED="1715388714284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythagoreanSpiral$main.coverage" NAME="main Coverage Results" MODIFIED="1715473245097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythagoreanSpiral$main.coverage" NAME="main Coverage Results" MODIFIED="1715473592756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
